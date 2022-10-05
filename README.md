@@ -3,7 +3,7 @@
 data-platform-reservation-document-sql は、データ連携基盤において、入出庫予定データを維持管理するSQLテーブルを作成するためのレポジトリです。 
 
 ## 前提条件  
-data-platform-business-partner-sql は、データ連携にあたり、API を利用し、本レポジトリ の sql 設定ファイルの内容は、下記 URL の API 仕様を前提としています。  
+data-platform-reservation-document-sql は、データ連携にあたり、API を利用し、本レポジトリ の sql 設定ファイルの内容は、下記 URL の API 仕様を前提としています。  
 https://api.XXXXXXXX.com/api/OP_API_XXXXXXX_XXX/overview  
 
 ## sqlの設定ファイル
@@ -16,5 +16,3 @@ data-platform-reservation-document-sql には、sqlの設定ファイルとし�
 ## MySQLのセットアップ / Kubernetesの設定 / SQLテーブルの作成方法
 
 MySQLのセットアップ / Kubernetesの設定 / 具体的なSQLテーブルの作成方法、については、[mysql-kube](https://github.com/latonaio/mysql-kube)を参照ください。
-
-
